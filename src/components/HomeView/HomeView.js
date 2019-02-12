@@ -16,7 +16,7 @@ import Main   from '../components/Main/Main';
 
 import { getFirstFiveRecipes } from "../selectors/selector";
 
-
+//@babel/plugin-proposal-class-properties
 class HomeView extends Component {
 
     state = {

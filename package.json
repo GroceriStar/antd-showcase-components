@@ -20,6 +20,7 @@
   "devDependencies": {
     "@babel/cli": "7.2.3",
     "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
@@ -42,8 +43,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@groceristar/grocery-component": "^1.0.6",
     "@groceristar/cards-wrapper": "^1.0.1",
+    "@groceristar/grocery-component": "^1.0.6",
     "antd": "^3.13.2",
     "lodash": "^4.17.11",
     "react-router": "^4.3.1",
