@@ -5,6 +5,9 @@ import {
   // Layout,
 
 } from 'antd';
+
+import AdvancedSearchForm from './AdvancedSearchForm'
+
 const WrappedAdvancedSearchForm = Form.create()(AdvancedSearchForm);
 
 export default WrappedAdvancedSearchForm;
