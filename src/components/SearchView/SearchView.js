@@ -16,7 +16,7 @@ import {
 //
 // } from "../selectors/selector"
 
-import AdvancedSearchForm from '../components/AdvancedSearchForm/AdvancedSearchForm'
+import AdvancedSearchForm from '~/AdvancedSearchForm/AdvancedSearchForm'
 
 const WrappedAdvancedSearchForm = Form.create()(AdvancedSearchForm);
 

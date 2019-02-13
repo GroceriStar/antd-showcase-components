@@ -11,12 +11,13 @@ import _        from "lodash";
 
 
 import Header from '~/Header/Header';
-import Main   from '~/Main/Main';
+import Main   from '~/Main';
 
 
 
 
-import { getFirstFiveRecipes } from "../selectors/selector";
+// import { getFirstFiveRecipes } from "../selectors/selector";
+
 
 //@babel/plugin-proposal-class-properties
 class HomeView extends Component {
