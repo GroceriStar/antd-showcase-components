@@ -42,8 +42,7 @@ Showcase is a project where we trying to incorporate two major tasks:
 2. figure out the way about making GL downloable by generating a simple PDF file
 
 
-<!--
-[![Build Status](https://travis-ci.org/GroceriStar/showcase.svg?branch=master)](https://travis-ci.org/GroceriStar/showcase) -->
+[![Build Status](https://travis-ci.org/GroceriStar/antd-showcase-components.svg?branch=master)](https://travis-ci.org/GroceriStar/antd-showcase-components)
 
 
 While we're coding it - we also extending the code base of GS, by testing fetch plugin, by moving away basic components, like lists, grocerylist component, etc...
