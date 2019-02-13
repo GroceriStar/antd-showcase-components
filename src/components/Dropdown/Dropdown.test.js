@@ -5,6 +5,8 @@ import Adapter from 'enzyme-adapter-react-16';
 
 import TodaysDate from '~/TodaysDate';
 
+import Dropdown from './Dropdown';
+
 Enzyme.configure({ adapter: new Adapter() });
 
 describe("<TodaysDate /> component shallow only methods ", () => {
