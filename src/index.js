@@ -1,10 +1,11 @@
 import Cards       from '~/Cards/Cards'
-import HeaderDropdown       from '~/Dropdown/Dropdown'
+import HeaderDropdown       from '~/Dropdown/HeaderDropdown'
 import Header      from '~/Header/Header'
 import HomeView    from '~/HomeView/HomeView'
 import ListWrapper from '~/ListWrapper/ListWrapper'
-//@TODO change name
-import AddRecipeModal       from '~/Modal/Modal/'
+
+//@TODO change name. and us Modal...
+import AddRecipeModal       from '~/AddRecipeModal/AddRecipeModal/'
 import Router      from '~/Router/Router'
 import SearchForm  from '~/SearchForm/SearchForm'
 
@@ -14,7 +15,7 @@ import SearchForm  from '~/SearchForm/SearchForm'
 export {
   Cards,
 
-Dropdown,
+HeaderDropdown,
   Header,
   HomeView,
   ListWrapper,

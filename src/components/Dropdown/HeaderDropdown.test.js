@@ -5,7 +5,7 @@ import Adapter from 'enzyme-adapter-react-16';
 
 import TodaysDate from '~/TodaysDate';
 
-import AddRecipeModal from './Modal';
+import HeaderDropdown from './HeaderDropdown';
 
 Enzyme.configure({ adapter: new Adapter() });
 
