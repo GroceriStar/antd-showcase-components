@@ -33,6 +33,8 @@ Right now we have one Example page at our shoplist-template repo but it's hard t
 use https://github.com/standard/standard
 
 
+- [ ]  Use preBuild checking for tests and stuff
+
 https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/components/SortableList
 
 https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/components/ShoppingItemWrapper
