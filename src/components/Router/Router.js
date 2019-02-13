@@ -23,8 +23,8 @@ class Router extends Component {
       <BrowserRouter>
         <Switch>
 
-          <Route path="/"  component={HomeView} exact/>
-          <Route path="/search"  component={SearchView} exact/>
+          <Route path="/"       component={HomeView} exact/>
+          <Route path="/search" component={SearchView} exact/>
 
 
         </Switch>
