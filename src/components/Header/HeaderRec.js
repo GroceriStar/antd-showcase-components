@@ -10,7 +10,8 @@ import { Link } from 'react-router-dom'
 
 import AddRecipeModal from './Modal';
 
-import HeaderDropdown from './Dropdown';
+//@TODO update it. different names. confusing
+import HeaderDropdown from '~/Dropdown/Dropdown';
 
 import { getRandomRecipe } from './../../selectors'
 
