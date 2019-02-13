@@ -4,14 +4,14 @@ import React, {
 } from 'react';
 import {
   BrowserRouter,
-  Switch, 
+  Switch,
   Route
 } from 'react-router-dom';
 
-import HomeView    from './HomeView'
+import HomeView    from '~/HomeView/HomeView'
 
 
-import SearchView from './SearchView'
+import SearchView from '~/SearchView/SearchView'
 
 
 
