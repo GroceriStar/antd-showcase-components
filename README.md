@@ -5,8 +5,7 @@ Main goal is to separate development process and have a separated place, where w
 
 Our first goal to create a flexible set of components, that will became a shopping list page, that will display our grocery list data.
 
-- [x] https://blog.bitsrc.io/tiny-components-what-can-go-wrong-d6aa42d71370
-- [x] move to this repository all components from https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/components/Ingredient
+- [ ] https://blog.bitsrc.io/tiny-components-what-can-go-wrong-d6aa42d71370
 
 
 - [ ] should we keep all of these components inside of the "Ingredient" folder? I don't think so...
@@ -35,14 +34,7 @@ use https://github.com/standard/standard
 
 - [ ]  Use preBuild checking for tests and stuff
 
-https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/components/SortableList
 
-https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/components/ShoppingItemWrapper
-
-https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/views/Examples
-
-
-Some of the details about components that we'll have here are described at this task: https://github.com/GroceriStar/react-shopping-list-template/issues/109
 
 
 Showcase is a project where we trying to incorporate two major tasks:
