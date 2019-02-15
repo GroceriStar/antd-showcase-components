@@ -17,6 +17,11 @@ import Main from '~/Main'
 
 // @TODO add tests for imports tooooo
 
+
+
+import PrettyPrintJson from '~/PrettyPrintJson/PrettyPrintJson'
+import ReduxVersion from '~/PrettyPrintJson/ReduxVersion'
+
 export {
   Cards,
 
