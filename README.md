@@ -1,45 +1,14 @@
-# shoplist-blocks-component
-
-This is a separated module, related with shoplist-template repository
-Main goal is to separate development process and have a separated place, where we can develop the logic of default components and then use them into our project
-
-Our first goal to create a flexible set of components, that will became a shopping list page, that will display our grocery list data.
-
-- [ ] https://blog.bitsrc.io/tiny-components-what-can-go-wrong-d6aa42d71370
-
-
-- [ ] should we keep all of these components inside of the "Ingredient" folder? I don't think so...
-- [ ] clean up our components from groceristar fetch stuff
-- [ ] add some routers stuff here...
-- [ ] replace paths for imports.....
-- [ ] replace shortid with uuid
-- [ ] basic clean up for this components
-- [ ] get rid of gs-fetch as part of this code
-- [ ] install all necessary modules from shop-list in order to make everyhing work. like react-dnd, antd
-
-- [ ] should work with our List module, from gs/grocery-component repo
-- [ ] each set of components can have a separated component, that will used only for displaying at Example-like pages.
-Right now we have one Example page at our shoplist-template repo but it's hard to navigate
-- [ ] Bitsrc.io, and preview of components...
-- [ ] eslint and fix!
-- [ ] clean up Examples
-- [ ] reaplace delete icon with antd
- - [ ] replace screens with views
-  - [ ] move stuff from shoplist template from screens, that related to components from examples
-  - [ small clean project with just react - components and antd]
-- fix shopping list template project
-
-use https://github.com/standard/standard
-
-
-- [ ]  Use preBuild checking for tests and stuff
-
-
+# antd-showcase-components
 
 
 Showcase is a project where we trying to incorporate two major tasks:
 1. show to a new users a collection of grocery lists - before they sign up - they want to explore the data that we have
 2. figure out the way about making GL downloable by generating a simple PDF file
+
+
+Our first goal to create a flexible set of components, that will became a wrapper for any basic project with antd library, that will display our grocery list data.
+
+- [ ] https://blog.bitsrc.io/tiny-components-what-can-go-wrong-d6aa42d71370
 
 
 [![Build Status](https://travis-ci.org/GroceriStar/antd-showcase-components.svg?branch=master)](https://travis-ci.org/GroceriStar/antd-showcase-components)
@@ -56,5 +25,15 @@ Stretch goals:
 - [ ] adjust logic of envconfig and try to connect to our local/shared servers
 - [ ] make first axios calls and be happy to receive json results
 - [ ] connect to our simple [fake-api](https://github.com/GroceriStar/fake-api) that i've created...
+
+
+- [ ] should work with ant List module
+- [ ] eslint and fix!
+- [ small clean project with just react - components and antd]
+- fix showcase template project
+
+use https://github.com/standard/standard
+
+- [ ]  Use preBuild checking for tests and stuff
 
 ---
