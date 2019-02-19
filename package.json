@@ -42,9 +42,10 @@
     "lodash": "^4.17.11",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
+    "redux-devtools": "^3.5.0",
     "uuid": "^3.3.2"
   },
-    "peerDependencies": {
+  "peerDependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "redux-devtools": "^3.5.0"
