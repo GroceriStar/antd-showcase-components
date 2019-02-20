@@ -39,14 +39,14 @@ import { List, Card, Ellipsis, Icon, Button } from 'antd'
 
 
 const ItemCard = (item) => (
-  <List.Item key={item.id}>
-    <Card hoverable className="card" actions={[<a>操作一</a>, <a>操作二</a>]}>
+  <List.Item key={item.key}>
+    <Card hoverable className="card" actions={[<a>OK</a>, <a>OK</a>]}>
       <Card.Meta
-        avatar={<img alt="" className="cardAvatar" src={item.avatar} />}
-        title={<a>{item.title}</a>}
+        avatar={<img alt="" className="cardAvatar" src={item.recipe.img} />}
+        title={<a>{item.recipe.title}</a>}
         description={
           <h2>
-            {item.description}
+            {item.recipe.directions}
           </h2>
         }
       />
@@ -78,7 +78,7 @@ const gridStyles = {
   xs: 1
 }
 
-const ListWrapper = ( list ) => {
+const ListWrapper = ( { list } ) => {
   return (
     <List
         rowKey="id"
