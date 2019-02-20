@@ -11,11 +11,6 @@ import {
 } from 'antd'
 
 
-const inputHeader = { marginLeft: 15, minWidth: 130, maxWidth: 300 };
-
-const suffixIconStyle = { color: 'rgba(0,0,0,.25)' };
-
-const buttonStyle = { marginLeft: 15, minWidth: 130 };
 
 
 const DropdownMenu = (setColumns) => (
@@ -59,6 +54,11 @@ const DropdownMenu2 = (setMargin) => (
   </Menu>
 );
 
+const inputHeader = { marginLeft: 15, minWidth: 130, maxWidth: 300 };
+
+const suffixIconStyle = { color: 'rgba(0,0,0,.25)' };
+
+const buttonStyle = { marginLeft: 15, minWidth: 130 };
 
 // @TODO we have a long list of props here. it's confusing.
 const Header = function({
@@ -115,18 +115,11 @@ const Header = function({
 
 
       {/*
-
       <span style={{ marginLeft: 15 }}>
         Individual height
       </span>
-
-
       <Switch style={{ marginLeft: 15 }} defaultChecked onChange={setHeight} />
       */}
-
-
-
-
 
     </div>
   )

@@ -33,3 +33,4 @@ const DropdownMenu = () => (
     </Menu.Item>
   </Menu>
 )
+export default DropdownMenu

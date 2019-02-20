@@ -1,6 +1,8 @@
-import Cards       from '~/Cards/Cards'
-import HeaderDropdown       from '~/Dropdown/HeaderDropdown'
 import Header      from '~/Header/Header'
+
+import HeaderDropdown       from '~/Dropdown/HeaderDropdown'
+import DropdownMenu       from '~/Dropdown/DropdownMenu'
+
 import HomeView    from '~/HomeView/HomeView'
 import ListWrapper from '~/ListWrapper/ListWrapper'
 
@@ -13,7 +15,7 @@ import Router      from '~/Router/Router'
 import SearchForm  from '~/SearchForm/SearchForm'
 
 
-import Main from '~/Main'
+// import Main from '~/Main'
 
 // @TODO add tests for imports tooooo
 
@@ -23,15 +25,16 @@ import Main from '~/Main'
 // import ReduxVersion from '~/PrettyPrintJson/ReduxVersion'
 
 export {
-  Cards,
-
-HeaderDropdown,
+  // Cards,
   Header,
+  HeaderDropdown,
+  DropdownMenu
+
   HomeView,
   ListWrapper,
 
-AdvancedSearchForm,
-WrappedAdvancedSearchForm,
+  AdvancedSearchForm,
+  WrappedAdvancedSearchForm,
 
   AddRecipeModal,
   Router,
