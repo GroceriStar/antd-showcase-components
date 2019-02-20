@@ -61,7 +61,7 @@ const suffixIconStyle = { color: 'rgba(0,0,0,.25)' };
 const buttonStyle = { marginLeft: 15, minWidth: 130 };
 
 // @TODO we have a long list of props here. it's confusing.
-const Header = function({
+const HeaderShowcase = function({
   shuffle,
   search,
   setColumns,
@@ -125,4 +125,4 @@ const Header = function({
   )
 }
 
-export default Header;
+export default HeaderShowcase;

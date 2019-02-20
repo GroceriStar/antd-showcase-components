@@ -1,4 +1,5 @@
-import Header      from '~/Header/Header'
+// import Header      from '~/Header/Header'
+import HeaderShowcase      from '~/Header/HeaderShowcase'
 
 import HeaderDropdown       from '~/Dropdown/HeaderDropdown'
 import DropdownMenu       from '~/Dropdown/DropdownMenu'
@@ -26,9 +27,11 @@ import SearchForm  from '~/SearchForm/SearchForm'
 
 export {
   // Cards,
-  Header,
+  // Header,
+  HeaderShowcase,
+
   HeaderDropdown,
-  DropdownMenu
+  DropdownMenu,
 
   HomeView,
   ListWrapper,
