@@ -10,7 +10,8 @@ import _        from "lodash";
 
 
 
-import Header from '~/Header/Header';
+// import Header from '~/Header/Header';
+import HeaderShowcase from '~/Header/HeaderShowcase';
 import Main   from '~/Main';
 
 
