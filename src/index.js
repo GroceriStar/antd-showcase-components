@@ -1,5 +1,6 @@
 // import Header      from '~/Header/Header'
 import HeaderShowcase      from '~/Header/HeaderShowcase'
+import Menu      from '~/Menu/Menu'
 
 import HeaderDropdown       from '~/Dropdown/HeaderDropdown'
 import DropdownMenu       from '~/Dropdown/DropdownMenu'
@@ -29,6 +30,7 @@ export {
   // Cards,
   // Header,
   HeaderShowcase,
+  Menu, 
 
   HeaderDropdown,
   DropdownMenu,
