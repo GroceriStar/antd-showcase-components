@@ -37,3 +37,11 @@ use https://github.com/standard/standard
 - [ ]  Use preBuild checking for tests and stuff
 
 ---
+
+https://ant.design/components/divider/
+https://ant.design/components/table/
+https://ant.design/components/modal/
+https://ant.design/components/skeleton/
+https://ant.design/components/menu/
+https://ant.design/components/layout/
+https://ant.design/components/card/
