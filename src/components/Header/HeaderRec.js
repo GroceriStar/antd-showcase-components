@@ -2,18 +2,16 @@ import React, { Component } from 'react'
 
 import { Menu, Icon, Modal, Button } from 'antd'
 
-
-
 import { Link } from 'react-router-dom'
 
-// import AddRecipe from './AddRecipe'
+// // import AddRecipe from './AddRecipe'
 
-import AddRecipeModal from './Modal';
+import AddRecipeModal from '~/AddRecipeModal/AddRecipeModal';
 
-//@TODO update it. different names. confusing
-import HeaderDropdown from '~/Dropdown/Dropdown';
+// //@TODO update it. different names. confusing
+import HeaderDropdown from '~/Dropdown/HeaderDropdown';
 
-import { getRandomRecipe } from './../../selectors'
+// import { getRandomRecipe } from './../../selectors'
 
 
 class Header extends Component {
