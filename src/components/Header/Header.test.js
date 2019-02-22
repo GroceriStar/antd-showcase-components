@@ -5,7 +5,8 @@ import EnzymeAdapter from 'enzyme-adapter-react-16';
 
 import TodaysDate from '~/TodaysDate';
 
-import Header from './Header';
+import Header from './HeaderRec';
+
 
 // Setup enzyme's react adapter
 Enzyme.configure({ adapter: new EnzymeAdapter() });
@@ -21,5 +22,16 @@ describe("<TodaysDate /> component shallow only methods ", () => {
 
     // expect(wrapper).toBe(true)
     //   ReactDOM.render(<List />, div);
+  });
+});
+
+
+describe("Header Menu", () => {
+  it("has the correct props value", () => {
+
+    const wrapper = shallow(<Header />);
+    wrapper.setState({ current: 'test' });
+	var menu = (wrapper.find('Menu'));
+	expect(menu.props().selectedKeys).toEqual(["test"]);  
   });
 });
