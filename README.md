@@ -45,3 +45,4 @@ https://ant.design/components/skeleton/
 https://ant.design/components/menu/
 https://ant.design/components/layout/
 https://ant.design/components/card/
+https://www.producthunt.com/posts/average-cookbook
