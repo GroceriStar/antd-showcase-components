@@ -23,6 +23,8 @@ import SearchForm  from '~/SearchForm/SearchForm'
 // @TODO add tests for imports tooooo
 
 
+import LoadMoreList from '~/LoadMoreList/LoadMoreList'
+
 
 // import PrettyPrintJson from '~/PrettyPrintJson/PrettyPrintJson'
 // import ReduxVersion from '~/PrettyPrintJson/ReduxVersion'
@@ -44,5 +46,8 @@ export {
 
   AddRecipeModal,
   Router,
-  SearchForm
+  SearchForm,
+
+
+  LoadMoreList
 }
