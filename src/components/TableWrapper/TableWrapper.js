@@ -1,6 +1,4 @@
 import React, { Component, Fragment } from 'react'
-
-
 import { Table } from 'antd';
 
 

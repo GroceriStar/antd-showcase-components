@@ -29,10 +29,12 @@ Stretch goals:
 
 - [ ] should work with ant List module
 - [ ] eslint and fix!
-- [ small clean project with just react - components and antd]
+- [ ] small clean project with just react - components and antd
 - fix showcase template project
 
-- remove reqwest package
+- [ ] remove reqwest package
+- [ ] add export of Cards from this package. because cards its cards
+
 
 use https://github.com/standard/standard
 
