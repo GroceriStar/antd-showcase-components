@@ -32,6 +32,8 @@ Stretch goals:
 - [ small clean project with just react - components and antd]
 - fix showcase template project
 
+- remove reqwest package
+
 use https://github.com/standard/standard
 
 - [ ]  Use preBuild checking for tests and stuff
