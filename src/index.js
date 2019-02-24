@@ -25,7 +25,7 @@ import SearchForm  from '~/SearchForm/SearchForm'
 
 import LoadMoreList from '~/LoadMoreList/LoadMoreList'
 
-
+import ListWrapperShort from '~/ListWrapperShort';
 // import PrettyPrintJson from '~/PrettyPrintJson/PrettyPrintJson'
 // import ReduxVersion from '~/PrettyPrintJson/ReduxVersion'
 
@@ -49,5 +49,7 @@ export {
   SearchForm,
 
 
-  LoadMoreList
+  LoadMoreList,
+
+  ListWrapperShort,
 }
