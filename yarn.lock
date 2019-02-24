@@ -707,9 +707,9 @@
     to-fast-properties "^2.0.0"
 
 "@groceristar/cards-wrapper@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.2.tgz#0d535d0607fce3a62f420add1d76b8ce5d3da68c"
-  integrity sha512-7Bymu1bpzNLk8L7ZhUAOY9d3f7DMvQJk2FE8+8PW65FLZN5FMdAygHVUD6/31no7xwIiidH1UWdYuZYNkjL0pQ==
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.6.tgz#9cbdba7a94b7531207099cf91058732e2802f6eb"
+  integrity sha512-CpWsPfVWuRn0CPWZlgLCHQ86fLGzrMArgqEn7be8xExUW1UauGlhvqQ3MNP9aFlVYMmrjPl3713oJFE77ub+hw==
   dependencies:
     "@react-pdf/renderer" "^1.2.0"
     antd "^3.13.0"
