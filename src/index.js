@@ -25,7 +25,7 @@ import SearchForm  from '~/SearchForm/SearchForm'
 
 import LoadMoreList from '~/LoadMoreList/LoadMoreList'
 
-import ListWrapperShort from '~/ListWrapperShort';
+import ListWrapperShort from '~/ListWrapperShort/ListWrapperShort';
 // import PrettyPrintJson from '~/PrettyPrintJson/PrettyPrintJson'
 // import ReduxVersion from '~/PrettyPrintJson/ReduxVersion'
 
