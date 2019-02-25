@@ -23,3 +23,13 @@ describe("<TodaysDate /> component shallow only methods ", () => {
     //   ReactDOM.render(<List />, div);
   });
 });
+
+describe("Modal", () => {
+  it("is visible at the right time", () => {
+
+    const wrapper = shallow(<AddRecipeModal />);
+    wrapper.setState({ visible: true });
+	var modal = (wrapper.find('Modal'));
+	expect(modal.props().visible).toEqual(true);  
+  });
+});
