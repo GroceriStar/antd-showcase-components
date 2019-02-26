@@ -9,7 +9,10 @@ import MenuPDF      from '~/Menu/MenuPDF'
 import HeaderDropdown       from '~/Dropdown/HeaderDropdown'
 import DropdownMenu       from '~/Dropdown/DropdownMenu'
 
-import HomeView    from '~/HomeView/HomeView'
+
+
+
+import HomeView    from '@v/HomeView/HomeView'
 import ListWrapper from '~/ListWrapper/ListWrapper'
 
 import AdvancedSearchForm from '~/AdvancedSearchForm/AdvancedSearchForm'
@@ -22,6 +25,7 @@ import Router      from '~/Router/Router'
 
 import SearchForm  from '~/SearchForm/SearchForm'
 
+import SearchView from '@v/SearchView/SearchView'
 
 // import Main from '~/Main'
 

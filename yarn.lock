@@ -717,10 +717,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@groceristar/cards-wrapper@^1.0.1":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.6.tgz#9cbdba7a94b7531207099cf91058732e2802f6eb"
-  integrity sha512-CpWsPfVWuRn0CPWZlgLCHQ86fLGzrMArgqEn7be8xExUW1UauGlhvqQ3MNP9aFlVYMmrjPl3713oJFE77ub+hw==
+"@groceristar/cards-wrapper@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.7.tgz#1245264107892728b963e3bfe167210fe3c3abee"
+  integrity sha512-r3EaXiKliTa4g244Rxot586PVj8HAoRAEQz1YJRBTuuvDkSNXicJimIToe4iSEQuD3vbfRWT03fZlbBlxrgNaw==
   dependencies:
     "@react-pdf/renderer" "^1.2.0"
     antd "^3.13.0"
