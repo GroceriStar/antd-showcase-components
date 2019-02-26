@@ -89,6 +89,7 @@ class AddRecipeModal extends Component {
         ]}
       >
       <hr />
+      
         { /* <AddRecipe handleOk={this.handleOk} /> */}
 
       </Modal>

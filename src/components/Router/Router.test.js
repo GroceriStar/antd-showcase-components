@@ -7,6 +7,10 @@ import TodaysDate from '~/TodaysDate';
 
 import Router from './Router';
 
+
+// we need to test here is all of views connected well.
+// Example: if i'll decide to change name or path to HomeView - we need to be notified about it
+
 // Setup enzyme's react adapter
 Enzyme.configure({ adapter: new EnzymeAdapter() });
 

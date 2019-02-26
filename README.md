@@ -1,6 +1,21 @@
 # antd-showcase-components
 
 
+
+This project contain different antD components
+- Modal
+- Search Form
+- EmptyImage
+- Header
+- HomeView
+- ListWrapper 2x
+- LoadMore List
+- Menu
+- Router
+- Search View
+- Table Wrapper
+
+
 Showcase is a project where we trying to incorporate two major tasks:
 1. show to a new users a collection of grocery lists - before they sign up - they want to explore the data that we have
 2. figure out the way about making GL downloable by generating a simple PDF file
@@ -29,8 +44,12 @@ Stretch goals:
 
 - [ ] should work with ant List module
 - [ ] eslint and fix!
-- [ small clean project with just react - components and antd]
+- [ ] small clean project with just react - components and antd
 - fix showcase template project
+
+- [ ] remove reqwest package
+- [ ] add export of Cards from this package. because cards its cards
+
 
 use https://github.com/standard/standard
 
