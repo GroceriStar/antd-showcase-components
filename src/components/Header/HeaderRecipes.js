@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-
-import { Menu, Icon, Modal, Button } from 'antd'
-
 import { Link } from 'react-router-dom'
+import { Menu, Icon, Modal, Button } from 'antd'
 
 // // import AddRecipe from './AddRecipe'
 
@@ -14,11 +12,16 @@ import HeaderDropdown from '~/Dropdown/HeaderDropdown';
 // import { getRandomRecipe } from './../../selectors'
 
 
+// import { getRandomRecipe } from './../../selectors'
+
 class HeaderRecipes extends Component {
 
   state = {
     current: 'app',
-    visible: false
+    visible: false,
+
+
+    data: this.props.data
   }
 
   handleClick = e => {
@@ -31,7 +34,9 @@ class HeaderRecipes extends Component {
   handleReload = (e) => {
     console.log('click ', e)
 
-    console.log(getRandomRecipe());
+    // console.log(getRandomRecipe());
+    console.log(this.state.data);
+
     // reloading data
     // this.setState({
     //   data: []
@@ -77,11 +82,15 @@ class HeaderRecipes extends Component {
         </Menu.Item>
 
         <Menu.Item key="app">
-          <Icon type="appstore" />Recipe List<Link to="/recipelist" />
+          <Icon type="appstore" />
+          Recipe List
+          <Link to="/recipelist" />
         </Menu.Item>
 
         <Menu.Item key="add">
-          <Icon type="appstore" />Add Recipe<Link to="/addrecipe" />
+          <Icon type="appstore" />
+          Add Recipe
+          <Link to="/addrecipe" />
         </Menu.Item>
 
         <Menu.Item key="alipay">
@@ -97,11 +106,15 @@ class HeaderRecipes extends Component {
         </Menu.Item>
 
         <Menu.Item key="search">
-          <Icon type="search" />Search<Link to="/s" />
+          <Icon type="search" />
+          Search
+          <Link to="/s" />
         </Menu.Item>
 
         <Menu.Item key="search2">
-          <Icon type="search" />Search<Link to="/s2" />
+          <Icon type="search" />
+          Search
+          <Link to="/s2" />
         </Menu.Item>
 
         <Menu.Item key="dropdead">
