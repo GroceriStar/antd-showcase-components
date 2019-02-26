@@ -9,11 +9,6 @@ import AddRecipeModal from '~/AddRecipeModal/AddRecipeModal';
 // //@TODO update it. different names. confusing
 import HeaderDropdown from '~/Dropdown/HeaderDropdown';
 
-// import { getRandomRecipe } from './../../selectors'
-
-
-// import { getRandomRecipe } from './../../selectors'
-
 class HeaderRecipes extends Component {
 
   state = {
@@ -84,13 +79,13 @@ class HeaderRecipes extends Component {
         <Menu.Item key="app">
           <Icon type="appstore" />
           Recipe List
-          <Link to="/recipelist" />
+          {/*}<Link to="/recipelist" />*/}
         </Menu.Item>
 
         <Menu.Item key="add">
           <Icon type="appstore" />
           Add Recipe
-          <Link to="/addrecipe" />
+          {/*}<Link to="/addrecipe" />*/}
         </Menu.Item>
 
         <Menu.Item key="alipay">
@@ -100,7 +95,7 @@ class HeaderRecipes extends Component {
 
 
 
-          <AddRecipeModal visible={this.state.visible} />
+          {/*}<AddRecipeModal visible={this.state.visible} />*/}
 
 
         </Menu.Item>
@@ -108,20 +103,20 @@ class HeaderRecipes extends Component {
         <Menu.Item key="search">
           <Icon type="search" />
           Search
-          <Link to="/s" />
+          {/*}<Link to="/s" />*/}
         </Menu.Item>
 
         <Menu.Item key="search2">
           <Icon type="search" />
           Search
-          <Link to="/s2" />
+          {/*}<Link to="/s2" />*/}
         </Menu.Item>
 
         <Menu.Item key="dropdead">
           <Icon type="ellipsis" />
           {/*Search*/}
           {/*<Link to="/ssss" />*/}
-          <HeaderDropdown />
+          {/*}<HeaderDropdown />*/}
         </Menu.Item>
 
       </Menu>
