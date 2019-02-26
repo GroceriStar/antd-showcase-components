@@ -1,6 +1,7 @@
 //@TODO all of these menus will be one thing soon or later. It can be a good task to make it work for all of our cases..
 // import Header      from '~/Header/Header'
 import HeaderShowcase      from '~/Header/HeaderShowcase'
+import HeaderRecipes      from '~/Header/HeaderRecipes'
 import Menu      from '~/Menu/Menu'
 import MenuPDF      from '~/Menu/MenuPDF'
 
@@ -42,6 +43,8 @@ export {
   // Cards,
   // Header,
   HeaderShowcase,
+  HeaderRecipes,
+  
   Menu, MenuPDF,
 
   HeaderDropdown,

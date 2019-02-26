@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
 import { List, Card, Ellipsis, Icon, Button } from 'antd'
+import Img from 'react-image'
 
+const Avatar = (image) => (
+  <Img src={image} alt="" className="cardAvatar" />
+)
 
 const ItemCard = (item) => (
   <List.Item key={item.key}>
-    <Card hoverable className="card" actions={[<a>OK</a>, <a>OK</a>]}>
+    <Card hoverable className="card"
+      actions={[<a>OK</a>, <a>OK</a>]}>
       <Card.Meta
-        avatar={<img alt="" className="cardAvatar" src={item.recipe.img} />}
+        avatar={Avatar(item.recipe.img)}
         title={<a>{item.recipe.title}</a>}
         description={
           <h2>

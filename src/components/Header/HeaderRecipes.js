@@ -14,7 +14,7 @@ import HeaderDropdown from '~/Dropdown/HeaderDropdown';
 // import { getRandomRecipe } from './../../selectors'
 
 
-class Header extends Component {
+class HeaderRecipes extends Component {
 
   state = {
     current: 'app',
@@ -116,4 +116,4 @@ class Header extends Component {
   }
 }
 
-export default Header
+export default HeaderRecipes
