@@ -86,7 +86,7 @@ class HeaderRecipes extends Component {
           <Icon type="appstore" />
           {/*Add Recipe*/}
           {/*}<Link to="/addrecipe" />*/}
-          <Link to="/addrecipe" >Add Recipe</Link>
+          {/*}<Link to="/addrecipe" >Add Recipe</Link>*/}
         </Menu.Item>
 
         <Menu.Item key="alipay">
