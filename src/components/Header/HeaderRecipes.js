@@ -84,8 +84,9 @@ class HeaderRecipes extends Component {
 
         <Menu.Item key="add">
           <Icon type="appstore" />
-          Add Recipe
+          {/*Add Recipe*/}
           {/*}<Link to="/addrecipe" />*/}
+          <Link to="/addrecipe" >Add Recipe</Link>
         </Menu.Item>
 
         <Menu.Item key="alipay">
@@ -95,7 +96,7 @@ class HeaderRecipes extends Component {
 
 
 
-          {/*}<AddRecipeModal visible={this.state.visible} />*/}
+          <AddRecipeModal visible={this.state.visible} />
 
 
         </Menu.Item>
@@ -116,7 +117,7 @@ class HeaderRecipes extends Component {
           <Icon type="ellipsis" />
           {/*Search*/}
           {/*<Link to="/ssss" />*/}
-          {/*}<HeaderDropdown />*/}
+          <HeaderDropdown />
         </Menu.Item>
 
       </Menu>
