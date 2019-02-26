@@ -8,8 +8,8 @@ import {
   Route
 } from 'react-router-dom';
 
-import HomeView    from '~/HomeView/HomeView'
-import SearchView  from '~/SearchView/SearchView'
+import HomeView    from '@v/HomeView/HomeView'
+import SearchView  from '@v/SearchView/SearchView'
 
 // @TODO later it'll have a config version
 // @TODO maybe we should generate a whole <Link />? looks like this is a perfect place for doing it.
