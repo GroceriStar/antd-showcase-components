@@ -5,7 +5,7 @@ import EnzymeAdapter from 'enzyme-adapter-react-16';
 
 import TodaysDate from '~/TodaysDate';
 
-import Header from './HeaderRec';
+import Header from './HeaderRecipes';
 
 
 // Setup enzyme's react adapter
