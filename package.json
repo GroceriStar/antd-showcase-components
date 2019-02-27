@@ -9,8 +9,9 @@
   "private": false,
   "scripts": {
     "build": "babel src -d lib",
+    "build:test": "shx rm -rf && babel src -d dist --copy-files",
     "#prepare": "yarn clean",
-    "clean": "rimraf ./coverage ./lib",
+    "clean": "shx rm -rf ./coverage && shx rm -rf ./lib",
     "lint": "eslint src",
     "zprepublish": "yarn clean && yarn build",
     "test": "jest",
@@ -51,9 +52,10 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "redux-devtools": "^3.5.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
     "reqwest": "^2.0.5",
+    "sass-loader": "^7.1.0",
+    "shx": "^0.3.2",
+    "style-loader": "^0.23.1",
     "uuid": "^3.3.2"
   },
   "peerDependencies": {
@@ -65,6 +67,8 @@
     "access": "public"
   },
   "files": [
-    "/lib"
+    "dist/*.js",
+    "dist/*.json",
+    "lib"
   ]
 }
