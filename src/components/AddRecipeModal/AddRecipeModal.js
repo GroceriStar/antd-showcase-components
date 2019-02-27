@@ -1,14 +1,23 @@
 import React, { Component } from 'react'
-
-
 import {
   // Menu, Icon,
-  Modal, Button } from 'antd'
+  Modal, Button
+} from 'antd'
 
 
   // import AddRecipe from './AddRecipe'
 
 // const AddRecipeModal = ({ visible }) => {
+
+const footerButtons = (handleCancel) => {
+
+  return [
+    <Button key="back" size="large"
+      onClick={handleCancel}>
+      Cancel
+    </Button>
+  ]
+}
 
 
 class AddRecipeModal extends Component {
@@ -81,15 +90,10 @@ class AddRecipeModal extends Component {
         visible={this.state.visible}
         onOk={this.handleOk}
         onCancel={this.handleCancel}
-        footer={[
-          <Button key="back" size="large"
-            onClick={this.handleCancel}>
-            Cancel
-          </Button>
-        ]}
+        footer={footerButtons(this.handleCancel)}
       >
       <hr />
-      
+
         { /* <AddRecipe handleOk={this.handleOk} /> */}
 
       </Modal>

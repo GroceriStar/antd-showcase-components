@@ -1,13 +1,31 @@
 import React, { Component } from 'react';
 
-import Header   from "./../components/Header/Header";
+import { 
+  HeaderShowcase,
+  // Menu
+} from '@groceristar/antd-showcase-components';
+
 import Cell     from "./../components/Cell/Cell";
+
+
+
 import { Grid } from "mauerwerk";
 import _        from "lodash";
 
+
+
+
+
 import RecipeTable from './../components/Recipe/RecipeTable'
 
+
+
+
 import "antd/dist/antd.css";
+
+
+
+
 import "./../styles.css";
 
 
@@ -17,6 +35,7 @@ import {
   getFirstFiveRecipes,
 
   getFiveRandomIngredients
+
 } from "./../selectors/selector";
 
 
@@ -38,16 +57,16 @@ class HomeRecipeView extends Component {
       height: true
     };
 
-async componentDidMount(){
-  try{
-    let response = await getFirstFiveRecipes();
-      this.setState({
-            data: response.data
-          })
-      } catch (e) {
-          console.error("Can't connect to Database");
-  }
-}
+    async componentDidMount(){
+      try{
+        let response = await getFirstFiveRecipes();
+          this.setState({
+                data: response.data
+              })
+          } catch (e) {
+              console.error("Can't connect to Database");
+      }
+    }
 
     //@TODO move this stuff to header
     search  = e => this.setState({ filter: e.target.value });
@@ -106,7 +125,7 @@ async componentDidMount(){
 
 
 
-        <Header
+        <HeaderShowcase
           {...this.state}
           search={this.search}
           shuffle={this.shuffle}

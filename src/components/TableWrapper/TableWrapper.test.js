@@ -1,3 +1,12 @@
+import React    from 'react';
+import ReactDOM from 'react-dom';
+import Enzyme, { shallow, configure } from 'enzyme';
+import EnzymeAdapter from 'enzyme-adapter-react-16';
+
+import TableWrapper from './TableWrapper';
+
+// Setup enzyme's react adapter
+configure({ adapter: new EnzymeAdapter() });
 
 const columns = [
   // {
@@ -34,3 +43,13 @@ const columns = [
   },
 
 ];
+
+
+
+
+// describe("xxx", () => {
+//   it("xxx", () => {
+//
+//
+//   });
+// });
