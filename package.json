@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "build": "babel src -d lib",
-    "build:test": "shx rm -rf && babel src -d dist --copy-files",
+    "build:test": "shx rm -rf && babel src -d dist",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./lib",
     "lint": "eslint src",
