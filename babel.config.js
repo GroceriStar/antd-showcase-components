@@ -24,7 +24,8 @@ const plugins = [
       }
     }
     // require.resolve('@babel/plugin-module-resolver')
-  ]
+  ],
+  ["import", {"libraryName": "antd", "style": true} ]
 
 ];
 
