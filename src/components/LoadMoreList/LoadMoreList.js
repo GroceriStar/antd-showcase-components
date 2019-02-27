@@ -15,6 +15,25 @@ import reqwest from 'reqwest';
 const count = 3;
 const fakeDataUrl = `https://randomuser.me/api/?results=${count}&inc=name,gender,email,nat&noinfo`;
 
+//@TODO change this name
+const Iiiitem = (item) => (
+  <List.Item actions={[<a>edit</a>, <a>more</a>]}>
+
+    <Skeleton avatar title={false} loading={item.loading} active>
+      <List.Item.Meta
+        avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
+        title={<a href="https://ant.design">{item.name.last}</a>}
+        description="Ant Design, a design language for background applications, is refined by Ant UED Team"
+      />
+      <div>
+        content
+      </div>
+    </Skeleton>
+
+  </List.Item>
+)
+
+
 class LoadMoreList extends React.Component {
 
   state = {
@@ -67,8 +86,10 @@ class LoadMoreList extends React.Component {
   }
 
   render() {
+
     const { initLoading, loading, list } = this.state;
 
+    //@TODO change this - looks very sad
     const loadMore = !initLoading && !loading ? (
       <div style={{
         textAlign: 'center', marginTop: 12, height: 32, lineHeight: '32px',
@@ -87,18 +108,9 @@ class LoadMoreList extends React.Component {
         loadMore={loadMore}
         dataSource={list}
         renderItem={item => (
-          <List.Item actions={[<a>edit</a>, <a>more</a>]}>
 
-            <Skeleton avatar title={false} loading={item.loading} active>
-              <List.Item.Meta
-                avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-                title={<a href="https://ant.design">{item.name.last}</a>}
-                description="Ant Design, a design language for background applications, is refined by Ant UED Team"
-              />
-              <div>content</div>
-            </Skeleton>
+          Iiiitem(item)
 
-          </List.Item>
         )}
       />
     );
@@ -106,5 +118,3 @@ class LoadMoreList extends React.Component {
 }
 
 export default LoadMoreList;
-
-// ReactDOM.render(<LoadMoreList />, mountNode);

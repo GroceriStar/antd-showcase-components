@@ -1,12 +1,13 @@
 import React, {
   Component,
   Fragment
-} from 'react';
+} from 'react'
+
 import {
   BrowserRouter,
   Switch,
   Route
-} from 'react-router-dom';
+} from 'react-router-dom'
 
 import HomeView    from '@v/HomeView/HomeView'
 import SearchView  from '@v/SearchView/SearchView'

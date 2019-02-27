@@ -46,16 +46,19 @@ class Menuu extends Component {
         selectedKeys={[this.state.current]}
         mode="horizontal"
       >
+
         <Menu.Item key="app">
           <Icon type="appstore" />
             Grocery Lists collection
           <Link to="/" />
         </Menu.Item>
+
         <Menu.Item key="add">
           <Icon type="appstore" />
           Plain Data
           <Link to="/groceries" />
         </Menu.Item>
+
         <Menu.Item key="alipay">
 
           <div onClick={this.showModal}>
@@ -79,6 +82,7 @@ class Menuu extends Component {
           </Modal>
 
         </Menu.Item>
+        
       </Menu>
     )
   }
