@@ -1,6 +1,6 @@
 import React    from 'react';
 import ReactDOM from 'react-dom';
-import Enzyme, { shallow, configure } from 'enzyme';
+import Enzyme, { shallow, configure, mount } from 'enzyme';
 import EnzymeAdapter from 'enzyme-adapter-react-16';
 
 import TodaysDate from '~/TodaysDate';
@@ -29,7 +29,16 @@ describe("Modal", () => {
 
     const wrapper = shallow(<AddRecipeModal />);
     wrapper.setState({ visible: true });
-	var modal = (wrapper.find('Modal'));
-	expect(modal.props().visible).toEqual(true);  
+	  var modal = (wrapper.find('Modal'));
+	  expect(modal.props().visible).toEqual(true);  
+  });
+});
+
+
+describe("wrapper", () => {
+  it("has correct initial state value for visible", () => {
+
+    const wrapper = mount(<AddRecipeModal visible={true}/>);
+    expect(wrapper.state().visible).toEqual(true); 
   });
 });
