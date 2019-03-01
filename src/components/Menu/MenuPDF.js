@@ -53,22 +53,22 @@ class MenuPDF extends Component {
         <Menu.Item key="app">
           <Icon type="appstore" />
             PDF1 View
-          {/*}<Link to="/pdf1" /> */}
+          <Link to="/pdf1" />
         </Menu.Item>
 
-        <Menu.Item key="app">
+        <Menu.Item key="app1">
           <Icon type="appstore" />
             PDF2 View
           <Link to="/pdf2" />
         </Menu.Item>
 
-        <Menu.Item key="app">
+        <Menu.Item key="app2">
           <Icon type="appstore" />
             PDF3 View
           <Link to="/pdf3" />
         </Menu.Item>
 
-        <Menu.Item key="app">
+        <Menu.Item key="app3">
           <Icon type="appstore" />
             PDF4 View Recipe
           <Link to="/recipe" />
