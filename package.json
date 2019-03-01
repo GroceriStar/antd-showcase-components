@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/antd-showcase-components",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "description": "module to use blocks that are part of ant basic components",
   "main": "dist/index.js",
   "repository": "https://github.com/GroceriStar/shoplist-blocks-component",
