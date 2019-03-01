@@ -22,7 +22,7 @@ import AdvancedSearchForm        from '~/AdvancedSearchForm/AdvancedSearchForm'
 import WrappedAdvancedSearchForm from '~/AdvancedSearchForm/WrappedASF'
 
 //@TODO change name. and us Modal...
-import AddRecipeModal       from '~/AddRecipeModal/AddRecipeModal/'
+import AddRecipeModal from '~/AddRecipeModal/AddRecipeModal/'
 
 import Router      from '~/Router/Router'
 

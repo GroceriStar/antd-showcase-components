@@ -66,10 +66,15 @@ class LoadMoreList extends React.Component {
   }
 
   onLoadMore = () => {
+
+
     this.setState({
       loading: true,
-      list: this.state.data.concat([...new Array(count)].map(() => ({ loading: true, name: {} }))),
+      list: this.state.data.concat(
+        [...new Array(count)].map(() => ({ loading: true, name: {} }))
+      ),
     });
+
     this.getData((res) => {
       const data = this.state.data.concat(res.results);
       this.setState({
@@ -83,6 +88,7 @@ class LoadMoreList extends React.Component {
         window.dispatchEvent(new Event('resize'));
       });
     });
+
   }
 
   render() {
