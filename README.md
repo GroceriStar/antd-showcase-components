@@ -55,6 +55,7 @@ use https://github.com/standard/standard
 
 - [ ]  Use preBuild checking for tests and stuff
 
+- [ ] delete when webpack switch to babel@core 7 "babel-preset-es2015": "^6.24.1",
 ---
 
 https://ant.design/components/divider/

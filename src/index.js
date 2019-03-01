@@ -16,7 +16,7 @@ import DropdownMenu       from '~/Dropdown/DropdownMenu'
 
 
 import HomeView    from '@v/HomeView/HomeView'
-import ListWrapper from '~/ListWrapper/ListWrapper'
+
 
 import AdvancedSearchForm        from '~/AdvancedSearchForm/AdvancedSearchForm'
 import WrappedAdvancedSearchForm from '~/AdvancedSearchForm/WrappedASF'
@@ -54,7 +54,7 @@ export {
   DropdownMenu,
 
   HomeView,
-  ListWrapper,
+
 
   AdvancedSearchForm,
   WrappedAdvancedSearchForm,
