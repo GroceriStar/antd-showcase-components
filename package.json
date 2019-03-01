@@ -66,6 +66,6 @@
     "access": "public"
   },
   "files": [
-    "dist/*.js"
+    "dist"
   ]
 }
