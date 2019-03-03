@@ -1071,12 +1071,13 @@
   integrity sha512-QsYGKdhhuDFNq7bjm2r44y0mp5xW3uO3csuTPDWZc0OIiMQv+AIY5Cqwd4mJiC5N8estVl7qlvOx1hbtOuUWbw==
 
 "@groceristar/cards-wrapper@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.12.tgz#a908bfcf7e0d2d8ddc9a9be2b97bdd8b26e4892a"
-  integrity sha512-8Jh3JAu7CiqZNSQrafDvvwTQAbMO+I5u+vAor+wdAcFZT75qDfltMn5j9iU2ucspPSSH6Qd2AO4KC1odyMMtcQ==
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.13.tgz#387ff43b5aaf0a53f03f5e3340dfadb216bd6265"
+  integrity sha512-PwCY7fXspognIjreG1FJ3gJ3v8Nwjmm0JUQ3GYgpzyECxQLofkCDa/rMg0LlbSeHayVI+U1TIJO2T0l9gwl6mw==
   dependencies:
     "@react-pdf/renderer" "^1.2.0"
     antd "^3.13.0"
+    react-image "^2.0.0"
     uuid "^3.3.2"
 
 "@groceristar/grocery-component@^1.0.9":
