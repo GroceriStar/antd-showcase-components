@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@groceristar/cards-wrapper": "^1.0.12",
-    "@groceristar/grocery-component": "^1.0.8",
+    "@groceristar/grocery-component": "^1.0.9",
     "antd": "^3.13.6",
     "lodash": "^4.17.11",
     "react-image": "^2.0.0",
