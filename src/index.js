@@ -7,12 +7,8 @@ import HeaderRecipes      from '~/Header/HeaderRecipes'
 import Menu      from '~/Menu/Menu'
 import MenuPDF   from '~/Menu/MenuPDF'
 
-
-
 import HeaderDropdown     from '~/Dropdown/HeaderDropdown'
 import DropdownMenu       from '~/Dropdown/DropdownMenu'
-
-
 
 
 import HomeView    from '@v/HomeView/HomeView'
@@ -36,7 +32,7 @@ import SearchView  from '@v/SearchView/SearchView'
 import LoadMoreList     from '~/LoadMoreList/LoadMoreList'
 
 import ListWrapperShort from '~/ListWrapperShort/ListWrapperShort'
-
+import ListWrapperEmpty from '@v/ListWrapperEmpty/ListWrapperEmpty'
 // import PrettyPrintJson from '~/PrettyPrintJson/PrettyPrintJson'
 // import ReduxVersion from '~/PrettyPrintJson/ReduxVersion'
 
@@ -70,6 +66,7 @@ export {
   LoadMoreList,
 
   ListWrapperShort,
+  ListWrapperEmpty,
 
 
 
