@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { List, Card, Ellipsis, Icon, Button } from 'antd'
-import { Em }   from '@groceristar/cards-wrapper';
+import { ListWrapper, Em }   from '@groceristar/cards-wrapper';
 
 class ListWrapperEmpty extends Component {
 
