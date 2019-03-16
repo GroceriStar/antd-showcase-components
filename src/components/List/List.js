@@ -2,6 +2,8 @@ import React, { Component, PureComponent } from 'react'
 
 import { List, Avatar, Icon } from 'antd'
 
+import Img from 'react-image'
+
 const listData = []
 
 for (let i = 0; i < 23; i++) {
@@ -31,7 +33,38 @@ const Footer = () => {
   )
 }
 
+const actionsTHOItem = () => {
+  return [
+    <IconText type='star-o' text='156' />,
+    <IconText type='like-o' text='156' />,
+    <IconText type='message' text='2' />
+  ]
+}
+
 const THOItem = (data) => {
+  return (
+    <List.Item
+      key={item.title}
+      actions={actionsTHOItem}
+      extra={
+        <img
+          width={272}
+          alt='logo'
+          src='https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png'
+        />
+      }
+    >
+      <List.Item.Meta
+        avatar={<Avatar src={item.avatar} />}
+        title={<a href={item.href}>{item.title}</a>}
+        description={item.description}
+      />
+      {item.content}
+    </List.Item>
+  )
+}
+
+const renderItem = (item) => {
   return (
     <List.Item
       key={item.title}
@@ -40,8 +73,7 @@ const THOItem = (data) => {
         <IconText type='like-o' text='156' />,
         <IconText type='message' text='2' />
       ]}
-      extra={<img width={272} alt='logo'
-        src='https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png' />}
+      extra={<img width={272} alt='logo' src='https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png' />}
     >
       <List.Item.Meta
         avatar={<Avatar src={item.avatar} />}
@@ -67,24 +99,7 @@ const TheListOfList = () => {
         }}
         dataSource={listData}
         footer={Footer}
-        renderItem={item => (
-          <List.Item
-            key={item.title}
-            actions={[
-              <IconText type='star-o' text='156' />,
-              <IconText type='like-o' text='156' />,
-              <IconText type='message' text='2' />
-            ]}
-            extra={<img width={272} alt='logo' src='https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png' />}
-          >
-            <List.Item.Meta
-              avatar={<Avatar src={item.avatar} />}
-              title={<a href={item.href}>{item.title}</a>}
-              description={item.description}
-            />
-            {item.content}
-          </List.Item>
-        )}
+        renderItem={renderItem(item)}
       />
     </Fragment>
   )

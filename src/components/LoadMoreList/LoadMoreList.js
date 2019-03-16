@@ -15,11 +15,21 @@ import reqwest from 'reqwest';
 const count = 3;
 const fakeDataUrl = `https://randomuser.me/api/?results=${count}&inc=name,gender,email,nat&noinfo`;
 
+//@TODO we have a skeletton in our other component
+
+const actionsArray = () => {
+  return [
+      <a>edit</a>,
+      <a>more</a>
+  ]
+}
+
 //@TODO change this name
 const Iiiitem = (item) => (
-  <List.Item actions={[<a>edit</a>, <a>more</a>]}>
+  <List.Item actions={actionsArray}>
 
     <Skeleton avatar title={false} loading={item.loading} active>
+
       <List.Item.Meta
         avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
         title={<a href="https://ant.design">{item.name.last}</a>}
