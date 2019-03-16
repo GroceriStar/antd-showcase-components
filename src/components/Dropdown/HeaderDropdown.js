@@ -5,13 +5,12 @@ import { Dropdown, Menu, Icon, message } from 'antd'
 import DropdownMenu from './DropdownMenu'
 
 const HeaderDropdown = () => {
-
   return (
     <Dropdown
-      trigger={["click"]}
+      trigger={['click']}
       overlay={DropdownMenu}
     >
-      <Icon className="card-action-content" type="ellipsis" />
+      <Icon className='card-action-content' type='ellipsis' />
     </Dropdown>
   )
 }

@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 
-import { List } from 'antd';
+import { List } from 'antd'
 
 const style = {
   // marginBottom: 16
@@ -8,8 +8,7 @@ const style = {
 
 // @TODO add header, footer
 // size = default middle small
-const ListWrapperShort = ( data, size = 'default' ) => {
-
+const ListWrapperShort = (data, size = 'default') => {
   return (
     <Fragment>
       <List
@@ -24,4 +23,4 @@ const ListWrapperShort = ( data, size = 'default' ) => {
   )
 }
 
-export default ListWrapperShort;
+export default ListWrapperShort

@@ -9,34 +9,29 @@ import {
   Route
 } from 'react-router-dom'
 
-import HomeView    from '@v/HomeView/HomeView'
-import SearchView  from '@v/SearchView/SearchView'
+import HomeView from '@v/HomeView/HomeView'
+import SearchView from '@v/SearchView/SearchView'
 
 // @TODO later it'll have a config version
 // @TODO maybe we should generate a whole <Link />? looks like this is a perfect place for doing it.
 const getRecipeLink = (id) => {
-  return '/recipe/'+ id;
+  return '/recipe/' + id
 }
 
-
 class Router extends Component {
-
-  render(){
-
+  render () {
     return (
       <BrowserRouter>
         <Switch>
 
-          <Route path="/"       component={HomeView} exact/>
-          <Route path="/search" component={SearchView} exact/>
-
+          <Route path='/' component={HomeView} exact />
+          <Route path='/search' component={SearchView} exact />
 
         </Switch>
       </BrowserRouter>
     )
   }
 }
-
 
 // export { Router, getRecipeLink, getLink };
 export default Router

@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 import {
   Form, Row, Col, Input, Button, Icon,
-  Layout,
+  Layout
 
-} from 'antd';
+} from 'antd'
 
 // import { Layout } from 'antd';
 
@@ -18,42 +18,40 @@ import {
 
 import AdvancedSearchForm from '~/AdvancedSearchForm/AdvancedSearchForm'
 
-const WrappedAdvancedSearchForm = Form.create()(AdvancedSearchForm);
+const WrappedAdvancedSearchForm = Form.create()(AdvancedSearchForm)
 
 const {
-  Header, Footer, Content,
-} = Layout;
+  Header, Footer, Content
+} = Layout
 
 const SearchView = () => (
 
   <Layout>
-  {/*
+    {/*
     <Header>
       header
     </Header>
     */}
-      <Layout>
+    <Layout>
 
-        <Content>
+      <Content>
 
         <WrappedAdvancedSearchForm />
-        </Content>
+      </Content>
 
-        <Content>
+      <Content>
 
-        <div className="search-result-list">
+        <div className='search-result-list'>
           Search Result List
         </div>
 
-        </Content>
-      </Layout>
-
+      </Content>
+    </Layout>
 
     <Footer>
       footer
     </Footer>
   </Layout>
-
 
 )
 

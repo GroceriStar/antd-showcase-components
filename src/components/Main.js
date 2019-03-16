@@ -5,8 +5,6 @@ import React, { Component } from 'react'
 
 import { Switch, Route } from 'react-router-dom'
 
-
-
 // <Switch>
 //   {/* <Route exact path='/' component={Home}/> */}
 //
@@ -16,17 +14,11 @@ import { Switch, Route } from 'react-router-dom'
 // </Switch>
 
 class Main extends Component {
-
-  render() {
-
+  render () {
     console.log(this.props)
 
     return (
-      <main>
-
-
-
-      </main>
+      <main />
     )
   }
 }

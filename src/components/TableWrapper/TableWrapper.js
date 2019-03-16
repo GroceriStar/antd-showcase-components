@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Table } from 'antd';
-
+import { Table } from 'antd'
 
 //
 // {recipe.id}
@@ -23,8 +22,6 @@ import { Table } from 'antd';
 // <br />
 // {recipe.url}
 
-
-
 const columns = [
   // {
   // title: 'ID',
@@ -32,34 +29,34 @@ const columns = [
   // },
   {
     title: 'Title',
-    dataIndex: 'title',
+    dataIndex: 'title'
   },
   {
     title: 'Directions',
-    dataIndex: 'directions',
+    dataIndex: 'directions'
   },
   {
     title: 'Ingredients',
-    dataIndex: 'ingredients',
+    dataIndex: 'ingredients'
   },
   {
     title: 'Prep Time',
-    dataIndex: 'prep_time',
+    dataIndex: 'prep_time'
   },
   {
     title: 'Total Time',
-    dataIndex: 'total_time',
+    dataIndex: 'total_time'
   },
   {
     title: 'Yield',
-    dataIndex: 'recipe_yield',
+    dataIndex: 'recipe_yield'
   },
   {
     title: 'URL',
-    dataIndex: 'url',
-  },
+    dataIndex: 'url'
+  }
 
-];
+]
 
 //
 // const data = [{
@@ -79,14 +76,13 @@ const columns = [
 //   address: 'Sidney No. 1 Lake Park',
 // }];
 
-
-//@TODO maybe later we should use {...data} for settings like size, etc
+// @TODO maybe later we should use {...data} for settings like size, etc
 const TableWrapper = ({ data }) => (
 
   <Table
     columns={columns}
     dataSource={data}
-    size="small" />
+    size='small' />
 
 )
 

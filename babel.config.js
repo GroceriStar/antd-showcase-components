@@ -1,14 +1,14 @@
-'use strict';
+'use strict'
 
-const path = require('path');
+const path = require('path')
 
 const presets = [
-  "@babel/preset-env",
-  "@babel/preset-react",
+  '@babel/preset-env',
+  '@babel/preset-react',
   {
 
   }
-];
+]
 
 const plugins = [
   [
@@ -17,18 +17,18 @@ const plugins = [
   [
     require.resolve('babel-plugin-module-resolver'),
     {
-      root: ["./src/"],
+      root: ['./src/'],
       alias: {
-        "~" : "./src/components",
-        "@v": "./src/views"
+        '~': './src/components',
+        '@v': './src/views'
       }
     }
     // require.resolve('@babel/plugin-module-resolver')
-  ],
+  ]
 
-];
+]
 
-module.exports = { presets, plugins };
+module.exports = { presets, plugins }
 
 // "babel-plugin-module-resolver": "^3.1.1",
 // npx babel src --out-dir lib --ignore "src/**/*.spec.js","src/**/*.test.js"

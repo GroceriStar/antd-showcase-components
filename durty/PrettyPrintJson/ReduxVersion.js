@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
 // Exported from redux-devtools
 // import { createDevTools } from 'redux-devtools';
 
-import { JSONTree } from 'redux-devtools';
+import { JSONTree } from 'redux-devtools'
 
 // import JSONTree from 'react-json-tree'
 
@@ -16,16 +16,16 @@ const json = {
   bool: true,
   object: {
     foo: 'bar'
-  },
+  }
   // immutable: Map({ key: 'value' })
 }
 
 // <JSONTree data={json} />
 
-const ReduxVersion = ( data ) => {
+const ReduxVersion = (data) => {
   return (
     <JSONTree data={data} />
   )
 }
 
-export default ReduxVersion;
+export default ReduxVersion

@@ -1,23 +1,21 @@
-import React from 'react';
-
+import React from 'react'
 
 // we can also add highlight.js and make it better.
 // https://stackoverflow.com/a/35340052
 
 class PrettyPrintJson extends React.Component {
-  render() {
+  render () {
     // data could be a prop for example
-    const { data } = this.props;
+    const { data } = this.props
     return (<div>
       {/* <pre>{JSON.stringify(data, null, 2) }</pre> */}
-    </div>);
+    </div>)
   }
 }
 
 // Usage:
 // <PrettyPrintJson data={data} />
 export default PrettyPrintJson
-
 
 // class JsonDump extends React.Component {
 //   static propTypes = {
