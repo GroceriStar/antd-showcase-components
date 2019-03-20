@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/antd-showcase-components",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "description": "module to use blocks that are part of ant basic components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "bundle":"rollup -c",
+    "bundle": "rollup -c",
     "build": "babel src -d dist",
     "build:test": "shx rm -rf && babel src -d dist",
     "#prepare": "yarn clean",
