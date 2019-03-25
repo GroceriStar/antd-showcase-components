@@ -8972,15 +8972,7 @@ prompts@^2.0.1:
     kleur "^3.0.2"
     sisteransi "^1.0.0"
 
-prop-types@15.6.2:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
-  integrity sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ==
-  dependencies:
-    loose-envify "^1.3.1"
-    object-assign "^4.1.1"
-
-prop-types@15.x, prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@15.7.2, prop-types@15.x, prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -9704,12 +9696,11 @@ react-hotkeys@2.0.0-pre4:
     prop-types "^15.6.1"
 
 react-image@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-image/-/react-image-2.0.0.tgz#c1d5f21351d3957ff54c9818b8adb26cd0d4204a"
-  integrity sha512-yWf+UAtkavJFSG1Qa4p111KncN7/a8dAOUUi5On3jjwZU1tzMXFpBnOFp04vYQr8fJmS/7ePp1OsK440WZ4fLA==
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-image/-/react-image-2.1.1.tgz#325b3f9fe828347b6cc063a59bc8e27f1ca46b00"
+  integrity sha512-rUsmeLCOJlzy/LBW2s8JGC1VS0TSBUdLDCdTdU7u3AenHBQM0aTzL3gtLnOJaXpshFUAPZxaLrxgmD7d3qkUMA==
   dependencies:
-    "@babel/runtime" "^7.0.0"
-    prop-types "15.6.2"
+    prop-types "15.7.2"
 
 react-inspector@^2.3.0, react-inspector@^2.3.1:
   version "2.3.1"
