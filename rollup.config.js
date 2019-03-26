@@ -24,6 +24,11 @@ export default {
     'react-dom',
   ],
 
+  globals: {
+    react: 'React',
+    //   'react-dom': 'ReactDOM'
+  },
+
   plugins: [
     // Allows node_modules resolution
     resolve({ extensions }),
