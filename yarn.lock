@@ -1052,20 +1052,20 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.2.tgz#63985d3d8b02530e0869962f4da09142ee8e200e"
   integrity sha512-n/VQ4mbfr81aqkx/XmVicOLjviMuy02eenSdJY33SVA7S2J42EU0P1H0mOogfYedb3wXA0d/LVtBrgTSm04WEA==
 
-"@groceristar/cards-wrapper@^1.0.12":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.18.tgz#d593abb98d4abe2f2d39d4e61d078ab51809eda9"
-  integrity sha512-8QeOsN9U6nJ6URtP8TjjOkQTE8GG+lnlf1zghgaUkT7K3aOkYClQkgmYyi+I342ftHOUDHW10SN7EthZwcElTQ==
+"@groceristar/cards-wrapper@^1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.19.tgz#6a0ac36350ce891cc805c4b3c05e0f7060ca5f5d"
+  integrity sha512-o2a3fzPvcfeA4G+LIXuTJ1DvJp+i/3wVmlddVx30jvCmYsNXQCkzbG5HquNnLtUHLS9M8uZUgHqfAzil4QE3LA==
   dependencies:
     "@react-pdf/renderer" "^1.2.0"
     antd "^3.13.2"
     react-image "^2.0.0"
     uuid "^3.3.2"
 
-"@groceristar/grocery-component@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@groceristar/grocery-component/-/grocery-component-1.0.9.tgz#dd39db7d02d4e1333a2378109ccd0b1e310213eb"
-  integrity sha512-J0pWd/S6yQiVF7BR4bueeYKtKezajoEwbTDD1F6arFLZ8ZhY8dp756fvDiCHVVzZvJ4edkFOuZkX8IwVLjGeDw==
+"@groceristar/grocery-component@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@groceristar/grocery-component/-/grocery-component-1.0.10.tgz#08474a4113d0acaab63f0dc57751d5b3d4130211"
+  integrity sha512-imtSRfDlmsvy1RiGZDrTYd73IYRK5+GMD3cfI38a2uIVl2dezNz5ZmwsFN0MT8VcQSj8QvamUpHNFDj9taqRSg==
   dependencies:
     uuid "^3.3.2"
 
