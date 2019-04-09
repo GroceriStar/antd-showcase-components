@@ -11,23 +11,38 @@ const extensions = [
 
 const name = 'AntDShowcaseComponents'
 
+const { external, globals } = {
+
+  "globals": {
+    "react": "React",
+    "react-dom": "ReactDom",
+    "react-router-dom": "react-router-dom",
+    'antd': 'antd'
+    'lodash': 'lodash',
+    'uuid':'uuid',
+    'react-image':'react-image',
+    '@react-pdf/renderer',
+  },
+  "external": [
+    'antd',
+    'lodash',
+    'uuid',
+    'react-image',
+    '@react-pdf/renderer',
+    'react',
+    'react-dom'
+  ]
+};
+
+// https://github.com/rollup/rollup/issues/2646
 export default {
   input: './src/index.js',
 
   // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
   // https://rollupjs.org/guide/en#external-e-external
-  external: [
-    'antd',
-    'lodash',
-    'uuid',
-    'react',
-    'react-dom',
-  ],
+  external,
 
-  globals: {
-    react: 'React',
-    //   'react-dom': 'ReactDOM'
-  },
+  globals,
 
   plugins: [
     // Allows node_modules resolution
