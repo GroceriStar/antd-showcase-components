@@ -1,6 +1,6 @@
 # antd-showcase-components
 
-
+[![npm version](http://img.shields.io/npm/v/@groceristar/antd-showcase-components.svg?style=flat)](https://npmjs.org/package/@groceristar/antd-showcase-components "View this project on npm")
 
 This project contain different antD components
 - Modal
