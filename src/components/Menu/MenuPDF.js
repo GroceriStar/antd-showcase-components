@@ -47,7 +47,7 @@ class MenuPDF extends Component {
       <Menu
         onClick={this.handleClick}
         selectedKeys={[this.state.current]}
-        mode="horizontal"
+        mode="vertical"
       >
 
         <Menu.Item key="app">

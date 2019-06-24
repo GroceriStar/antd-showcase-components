@@ -3,6 +3,7 @@
 // import Header      from '~/Header/Header'
 import HeaderShowcase from '~/Header/HeaderShowcase'
 import HeaderRecipes from '~/Header/HeaderRecipes'
+import Header from '~/Header/Header'
 
 import Menu from '~/Menu/Menu'
 import MenuPDF from '~/Menu/MenuPDF'
@@ -41,6 +42,7 @@ export {
   // Header,
   HeaderShowcase,
   HeaderRecipes,
+  Header,
 
   Menu,
   MenuPDF,
