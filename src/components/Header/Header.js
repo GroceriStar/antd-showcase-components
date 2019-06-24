@@ -10,7 +10,7 @@ import {
 } from 'antd'
 
 import HeaderDropdown from '~/DropdownPDF/HeaderDropdown';
-
+import AddRecipeModal from '~/AddRecipeModal/AddRecipeModal';
 // @TODO we have a long list of props here. it's confusing.
 
 const inputStyle = { marginLeft: 15, minWidth: 130, maxWidth: 300 }
