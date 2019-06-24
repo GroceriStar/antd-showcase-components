@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/antd-showcase-components",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "description": "module to use blocks that are part of ant basic components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
