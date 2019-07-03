@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - antd > rc-table > lodash:
+        patched: '2019-07-03T21:28:39.085Z'
+    - lodash:
+        patched: '2019-07-03T21:28:39.085Z'
+    - '@groceristar/cards-wrapper > antd > lodash':
+        patched: '2019-07-03T21:28:39.085Z'
+    - antd > rc-form > lodash:
+        patched: '2019-07-03T21:28:39.085Z'
+    - antd > rc-tabs > lodash:
+        patched: '2019-07-03T21:28:39.085Z'
+    - antd > rc-steps > lodash:
+        patched: '2019-07-03T21:28:39.085Z'
+    - antd > lodash:
+        patched: '2019-07-03T21:28:39.085Z'
+    - antd > rc-editor-mention > rc-editor-core > lodash:
+        patched: '2019-07-03T21:28:39.085Z'
+    - '@groceristar/cards-wrapper > antd > rc-table > lodash':
+        patched: '2019-07-03T21:28:39.085Z'
+    - '@groceristar/cards-wrapper > antd > rc-form > lodash':
+        patched: '2019-07-03T21:28:39.085Z'
+    - '@groceristar/cards-wrapper > antd > rc-tabs > lodash':
+        patched: '2019-07-03T21:28:39.085Z'
+    - '@groceristar/cards-wrapper > antd > rc-steps > lodash':
+        patched: '2019-07-03T21:28:39.085Z'
+    - '@groceristar/cards-wrapper > antd > rc-editor-mention > rc-editor-core > lodash':
+        patched: '2019-07-03T21:28:39.085Z'

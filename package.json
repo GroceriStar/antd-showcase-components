@@ -20,7 +20,9 @@
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "code-fix": "standard --fix"
+    "code-fix": "standard --fix",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@babel/cli": "7.4.4",
@@ -59,7 +61,8 @@
     "react-router-dom": "^5.0.0",
     "reqwest": "^2.0.5",
     "shx": "^0.3.2",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "snyk": "^1.189.0"
   },
   "peerDependencies": {
     "antd": "^3.13.2",
@@ -71,5 +74,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "snyk": true
 }
