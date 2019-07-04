@@ -30,3 +30,25 @@ patch:
         patched: '2019-07-03T21:28:39.085Z'
     - '@groceristar/cards-wrapper > antd > rc-editor-mention > rc-editor-core > lodash':
         patched: '2019-07-03T21:28:39.085Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-04T14:04:26.452Z'
+    - snyk > lodash:
+        patched: '2019-07-04T14:04:26.452Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-04T14:04:26.452Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-04T14:04:26.452Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-04T14:04:26.452Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-04T14:04:26.452Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-04T14:04:26.452Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-04T14:04:26.452Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-04T14:04:26.452Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-04T14:04:26.452Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-04T14:04:26.452Z'
