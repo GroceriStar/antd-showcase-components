@@ -54,7 +54,7 @@
   "dependencies": {
     "@groceristar/cards-wrapper": "^1.0.21",
     "@groceristar/grocery-component": "^1.0.10",
-    "antd": "^3.13.6",
+    "antd": "^4.0.0",
     "lodash": "^4.17.11",
     "react-image": "^2.1.1",
     "react-router": "^5.0.0",
@@ -65,7 +65,7 @@
     "snyk": "^1.230.5"
   },
   "peerDependencies": {
-    "antd": "^3.13.2",
+    "antd": "^3.13.2 || ^4.0.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
   },
