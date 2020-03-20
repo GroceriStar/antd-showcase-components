@@ -61,7 +61,7 @@
     "react-router-dom": "^5.0.0",
     "reqwest": "^2.0.5",
     "shx": "^0.3.2",
-    "uuid": "^3.3.2",
+    "uuid": "^7.0.0",
     "snyk": "^1.230.5"
   },
   "peerDependencies": {
