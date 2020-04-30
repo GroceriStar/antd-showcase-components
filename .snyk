@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -57,3 +57,60 @@ patch:
         patched: '2019-10-03T21:28:38.395Z'
     - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
         patched: '2019-10-03T21:28:38.395Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - antd > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - antd > rc-steps > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - '@groceristar/cards-wrapper > antd > lodash':
+        patched: '2020-04-30T21:33:11.113Z'
+    - antd > rc-table > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - antd > rc-tabs > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - '@groceristar/cards-wrapper > antd > rc-form > lodash':
+        patched: '2020-04-30T21:33:11.113Z'
+    - '@groceristar/cards-wrapper > antd > rc-steps > lodash':
+        patched: '2020-04-30T21:33:11.113Z'
+    - '@groceristar/cards-wrapper > antd > rc-table > lodash':
+        patched: '2020-04-30T21:33:11.113Z'
+    - '@groceristar/cards-wrapper > antd > rc-tabs > lodash':
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - '@groceristar/cards-wrapper > antd > rc-editor-mention > rc-editor-core > lodash':
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - antd > @ant-design/react-slick > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-04-30T21:33:11.113Z'
