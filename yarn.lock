@@ -7067,6 +7067,10 @@ react-image@^2.1.1:
   dependencies:
     prop-types "15.7.2"
 
+react-image@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/react-image/-/react-image-4.0.0.tgz#328ed515d0f5a39feb7a3f1f14709b07c9eda97a"
+
 react-is@^16.10.2, react-is@^16.9.0:
   version "16.10.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.2.tgz#984120fd4d16800e9a738208ab1fba422d23b5ab"
