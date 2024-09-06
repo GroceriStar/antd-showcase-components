@@ -54,13 +54,13 @@
   "dependencies": {
     "@groceristar/cards-wrapper": "^1.0.21",
     "@groceristar/grocery-component": "^1.0.10",
-    "antd": "^4.0.0",
+    "antd": "^5.0.1",
     "lodash": "^4.17.11",
     "react-image": "^2.1.1",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "reqwest": "^2.0.5",
-    "shx": "^0.3.2",
+    "shx": "^0.3.4",
     "uuid": "^3.3.2",
     "snyk": "^1.230.5"
   },
