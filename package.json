@@ -25,12 +25,12 @@
     "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
-    "@babel/cli": "7.7.4",
-    "@babel/core": "7.7.4",
-    "@babel/plugin-proposal-class-properties": "7.7.4",
-    "@babel/plugin-transform-react-jsx": "7.7.4",
-    "@babel/preset-env": "7.7.4",
-    "@babel/preset-react": "7.7.4",
+    "@babel/cli": "7.25.9",
+    "@babel/core": "7.25.9",
+    "@babel/plugin-proposal-class-properties": "7.18.6",
+    "@babel/plugin-transform-react-jsx": "7.25.9",
+    "@babel/preset-env": "7.25.9",
+    "@babel/preset-react": "7.25.9",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "25.1.0",
     "babel-loader": "8.0.6",
