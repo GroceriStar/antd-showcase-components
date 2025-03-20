@@ -60,7 +60,7 @@
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "reqwest": "^2.0.5",
-    "shx": "^0.3.2",
+    "shx": "^0.4.0",
     "uuid": "^3.3.2",
     "snyk": "^1.230.5"
   },
